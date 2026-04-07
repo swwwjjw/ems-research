@@ -1,0 +1,110 @@
+<project name="MutationTesting" default="mutation.test" basedir=".">
+
+    <!-- ============================================================ -->
+    <!-- Properties                                                    -->
+    <!-- ============================================================ -->
+    <property name="lib.dir"          value="lib"/>
+    <property name="src.dir"          value="src/main/java"/>
+    <property name="test.dir"         value="src/test/java"/>
+    <property name="build.dir"        value="build"/>
+    <property name="classes.dir"      value="${build.dir}/classes"/>
+    <property name="test.classes.dir" value="${build.dir}/test-classes"/>
+    <property name="major.jar"        value="/Users/egor/Downloads/major/lib/major.jar"/>
+    <!-- Path to compiled MML file (use mmlc to generate from .mml) -->
+    <property name="mml.file"         value="/Users/egor/Downloads/major/mml/all.mml.bin"/>
+    <!-- Output directories for Major -->
+    <property name="mutants.log"      value="mutants.log"/>
+    <property name="summary.file"     value="summary.csv"/>
+    <property name="details.file"     value="details.csv"/>
+
+    <!-- ============================================================ -->
+    <!-- Classpaths                                                    -->
+    <!-- ============================================================ -->
+    <path id="compile.classpath">
+        <fileset dir="${lib.dir}" includes="*.jar"/>
+        <fileset dir="/Users/egor/Downloads/major/lib" includes="major.jar"/>
+    </path>
+
+    <path id="test.classpath">
+        <path refid="compile.classpath"/>
+        <pathelement location="${classes.dir}"/>
+        <pathelement location="${test.classes.dir}"/>
+    </path>
+
+    <!-- ============================================================ -->
+    <!-- Clean target                                                  -->
+    <!-- ============================================================ -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete file="${mutants.log}"/>
+        <delete file="${summary.file}"/>
+        <delete file="${details.file}"/>
+    </target>
+
+    <!-- ============================================================ -->
+    <!-- Init target: create build directories                        -->
+    <!-- ============================================================ -->
+    <target name="init">
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${test.classes.dir}"/>
+    </target>
+
+    <!-- ============================================================ -->
+    <!-- Compile main code with Major compiler plugin                 -->
+    <!-- ============================================================ -->
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}"
+               destdir="${classes.dir}"
+               debug="yes"
+               includeAntRuntime="false"
+               classpathref="compile.classpath">
+
+            <!-- Add Major plugin -->
+            <compilerarg value="-Xplugin:MajorPlugin mml:${mml.file}"/>
+        </javac>
+    </target>
+
+    <!-- ============================================================ -->
+    <!-- Compile test code (standard javac, no mutation)              -->
+    <!-- ============================================================ -->
+    <target name="compile-tests" depends="compile">
+        <javac srcdir="${test.dir}"
+               destdir="${test.classes.dir}"
+               debug="yes"
+               includeAntRuntime="false"
+               classpathref="test.classpath"/>
+    </target>
+
+    <!-- ============================================================ -->
+    <!-- Mutation analysis target using Major's JUnit extension       -->
+    <!-- ============================================================ -->
+    <target name="mutation.test" depends="compile-tests">
+        <!-- Run mutation analysis with Major's custom junit task -->
+        <junit printsummary="false"
+               showoutput="false"
+               haltonfailure="false"
+               mutationAnalysis="true"
+               analysisType="preproc_mutation"
+               mutantsLogFile="${mutants.log}"
+               summaryFile="${summary.file}"
+               mutantDetailsFile="${details.file}"
+               serializedMapsFile="preprocessing.ser"
+               timeoutFactor="8"
+               timeoutOffset="0"
+               excludeFailingTests="true"
+               fork="no"
+               debug="true">
+
+            <!-- Use our compiled classes (with mutants embedded) -->
+            <classpath refid="test.classpath"/>
+
+            <!-- Run all tests from the test source directory -->
+            <batchtest fork="false">
+                <fileset dir="${test.dir}">
+                    <include name="**/*Test*.java"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+</project>
