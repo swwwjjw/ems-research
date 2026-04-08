@@ -1,0 +1,444 @@
+[04/26 19:38:39] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/egor/Downloads/major/mml/all.mml.bin, export.mutants, export.context]
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[java.util.Scanner, com.example.Console]]]]
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: com.example.Console
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([FileService fileService, RPNCalculator calculator])null
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: run([])void
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 1
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 1: (STD) printMenu(); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 2
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 2: (STD) manualInput(scanner); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 3
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 3: (STD) break; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 4
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 4: (STD) processJsonFile(scanner); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 5
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 5: (STD) break; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 6
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 6: (STD) showHelp(); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 7
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 7: (STD) pause(scanner); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 8
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 8: (STD) break; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 9
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 9: (STD) System.out.println("\u0412\u044b\u0445\u043e\u0434 \u0438\u0437 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 10
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 10: (STD) return; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 11
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 11: (STD) System.out.println("\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0441\u043d\u043e\u0432\u0430."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: printMenu([])void
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 12
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 12: (STD) System.out.println("\n========== \u0413\u041b\u0410\u0412\u041d\u041e\u0415 \u041c\u0415\u041d\u042e =========="); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 13
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 13: (STD) System.out.println("1. \u0420\u0443\u0447\u043d\u043e\u0439 \u0432\u0432\u043e\u0434 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u044f"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 14
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 14: (STD) System.out.println("2. \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c JSON-\u0444\u0430\u0439\u043b"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 15
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 15: (STD) System.out.println("3. \u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0441\u043f\u0440\u0430\u0432\u043a\u0443"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 16
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 16: (STD) System.out.println("4. \u0412\u044b\u0445\u043e\u0434"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 17
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 17: (STD) System.out.print("\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043f\u0443\u043d\u043a\u0442: "); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: manualInput([Scanner scanner])void
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 18
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 18: (STD) System.out.println("\n--- \u0420\u0443\u0447\u043d\u043e\u0439 \u0432\u0432\u043e\u0434 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u044f ---"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 19
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 19: (STD) System.out.print("\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0432 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043f\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u043d\u043e\u0442\u0430\u0446\u0438\u0438 (\u0442\u043e\u043a\u0435\u043d\u044b \u0447\u0435\u0440\u0435\u0437 \u043f\u0440\u043e\u0431\u0435\u043b): "); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 20
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 21
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 20: Console.manualInput(line 53, col 31)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> TRUE
+            original:                  expression.isEmpty() 
+            mutant:                    false
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 21: Console.manualInput(line 53, col 31)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> FALSE
+            original:                  expression.isEmpty() 
+            mutant:                    true
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 22
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 22: (STD) System.out.println("\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 23
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 23: (STD) return; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 24
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 24: (STD) System.out.print("\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c (1 - \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u044b\u0439, 2 - \u0431\u044b\u0441\u0442\u0440\u044b\u0439): "); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 25
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 25: Console.manualInput(line 60, col 36)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> ==(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    !algorithm.equals("1") == !algorithm.equals("2")
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 26
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 26: Console.manualInput(line 60, col 36)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> FALSE(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    false
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 27
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 27: Console.manualInput(line 60, col 13)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> LHS(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    !algorithm.equals("1")
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 28
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 28: Console.manualInput(line 60, col 39)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> RHS(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    !algorithm.equals("2")
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 29
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 29: (STD) System.out.println("\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u0430."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 30
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 30: (STD) return; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 31
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 32
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 31: Console.manualInput(line 68, col 33)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> TRUE
+            original:                  algorithm.equals("1") 
+            mutant:                    false
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 32: Console.manualInput(line 68, col 33)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> FALSE
+            original:                  algorithm.equals("1") 
+            mutant:                    true
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 33
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 33: (STD) System.out.println("\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442: " + formatResult(result)); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 34
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 34: (STD) System.out.println("\u041e\u0448\u0438\u0431\u043a\u0430 \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f: " + e.getMessage()); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: processJsonFile([Scanner scanner])void
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 35
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 35: (STD) System.out.println("\n--- \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 JSON-\u0444\u0430\u0439\u043b\u0430 ---"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 36
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 36: (STD) System.out.print("\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0443\u0442\u044c \u043a \u0432\u0445\u043e\u0434\u043d\u043e\u043c\u0443 JSON-\u0444\u0430\u0439\u043b\u0443: "); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 37
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 37: (STD) System.out.print("\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0443\u0442\u044c \u043a \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u043c\u0443 JSON-\u0444\u0430\u0439\u043b\u0443 (Enter \u0434\u043b\u044f \u0432\u044b\u0445\u043e\u0434\u0430 \u0432 \u0442\u0435\u043a\u0443\u0449\u0443\u044e \u043f\u0430\u043f\u043a\u0443): "); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 38
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 39
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 38: Console.processJsonFile(line 86, col 31)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> TRUE
+            original:                  outputPath.isEmpty() 
+            mutant:                    false
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 39: Console.processJsonFile(line 86, col 31)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> FALSE
+            original:                  outputPath.isEmpty() 
+            mutant:                    true
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 40
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 40: (STD) outputPath = "output.json"; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 41
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 41: (STD) System.out.print("\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c (1 - \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u044b\u0439, 2 - \u0431\u044b\u0441\u0442\u0440\u044b\u0439): "); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 42
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 42: Console.processJsonFile(line 92, col 36)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> ==(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    !algorithm.equals("1") == !algorithm.equals("2")
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 43
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 43: Console.processJsonFile(line 92, col 36)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> FALSE(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    false
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 44
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 44: Console.processJsonFile(line 92, col 13)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> LHS(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    !algorithm.equals("1")
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 45
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 45: Console.processJsonFile(line 92, col 39)
+            mutation operator group:   COR
+            mutation operator:         &&(boolean,boolean) |==> RHS(boolean,boolean)
+            original:                  !algorithm.equals("1") && !algorithm.equals("2") 
+            mutant:                    !algorithm.equals("2")
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 46
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 46: (STD) System.out.println("\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u0430."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 47
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 47: (STD) return; -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 48
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 49
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 48: Console.processJsonFile(line 102, col 33)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> TRUE
+            original:                  algorithm.equals("1") 
+            mutant:                    false
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 49: Console.processJsonFile(line 102, col 33)
+            mutation operator group:   COR
+            mutation operator:         <METHOD_INVOCATION(boolean)> |==> FALSE
+            original:                  algorithm.equals("1") 
+            mutant:                    true
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 50
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 50: (STD) fileService.writeResultToJson(outputPath, expression, result); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 51
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 51: (STD) System.out.println("\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u043f\u0438\u0441\u0430\u043d \u0432 " + outputPath); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 52
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 52: (STD) System.out.println("\u041e\u0448\u0438\u0431\u043a\u0430: " + e.getMessage()); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: showHelp([])void
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 53
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 53: (STD) System.out.println("\n=================== \u0421\u041f\u0420\u0410\u0412\u041a\u0410 ==================="); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 54
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 54: (STD) System.out.println("\u041a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043f\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u043d\u043e\u0442\u0430\u0446\u0438\u0438 (RPN)"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 55
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 55: (STD) System.out.println("\u041e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u043f\u043e\u043b\u044c\u0441\u043a\u0430\u044f \u043d\u043e\u0442\u0430\u0446\u0438\u044f (\u043f\u043e\u0441\u0442\u0444\u0438\u043a\u0441\u043d\u0430\u044f) \u2014 \u0444\u043e\u0440\u043c\u0430 \u0437\u0430\u043f\u0438\u0441\u0438,"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 56
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 56: (STD) System.out.println("\u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u043e\u043f\u0435\u0440\u0430\u0442\u043e\u0440 \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u0437\u0430 \u043e\u043f\u0435\u0440\u0430\u043d\u0434\u0430\u043c\u0438. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440:"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 57
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 57: (STD) System.out.println("  \u0438\u043d\u0444\u0438\u043a\u0441\u043d\u0430\u044f:  (3 + 4) * 5"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 58
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 58: (STD) System.out.println("  \u043f\u043e\u0441\u0442\u0444\u0438\u043a\u0441\u043d\u0430\u044f: 3 4 + 5 *"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 59
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 59: (STD) System.out.println("\u0414\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0435 \u043e\u043f\u0435\u0440\u0430\u0442\u043e\u0440\u044b: +  -  *  /"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 60
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 60: (STD) System.out.println("\u0427\u0438\u0441\u043b\u0430 \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0446\u0435\u043b\u044b\u043c\u0438 \u0438\u043b\u0438 \u0434\u0440\u043e\u0431\u043d\u044b\u043c\u0438 (\u0440\u0430\u0437\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c \u0442\u043e\u0447\u043a\u0430)."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 61
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 61: (STD) System.out.println("\u041e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0447\u0438\u0441\u043b\u0430 \u0432\u0432\u043e\u0434\u044f\u0442\u0441\u044f \u043a\u0430\u043a \u043e\u0431\u044b\u0447\u043d\u043e: -5 2 *"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 62
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 62: (STD) System.out.println("\u0410\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f:"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 63
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 63: (STD) System.out.println("  \u041c\u0435\u0434\u043b\u0435\u043d\u043d\u044b\u0439 \u2014 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0441\u043f\u0438\u0441\u043a\u0430 (O(n\u00b2)), \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 64
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 64: (STD) System.out.println("  \u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u2014 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0441\u0442\u0435\u043a\u0430 (O(n)), \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u043d\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0435."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 65
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 65: (STD) System.out.println("\u0420\u0435\u0436\u0438\u043c\u044b \u0440\u0430\u0431\u043e\u0442\u044b:"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 66
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 66: (STD) System.out.println("  1. \u0420\u0443\u0447\u043d\u043e\u0439 \u0432\u0432\u043e\u0434 \u2014 \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0442\u0440\u043e\u043a\u0443 \u0442\u043e\u043a\u0435\u043d\u043e\u0432 (\u0447\u0435\u0440\u0435\u0437 \u043f\u0440\u043e\u0431\u0435\u043b) \u0438"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 67
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 67: (STD) System.out.println("     \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c. \u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u0432\u044b\u0432\u043e\u0434\u0438\u0442\u0441\u044f \u043d\u0430 \u044d\u043a\u0440\u0430\u043d."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 68
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 68: (STD) System.out.println("  2. \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 JSON \u0444\u0430\u0439\u043b\u0430 \u2014 \u0447\u0442\u0435\u043d\u0438\u0435 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0438\u0437 \u0444\u0430\u0439\u043b\u0430,"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 69
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 69: (STD) System.out.println("     \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u0435 \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430 \u0432 JSON."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 70
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 70: (STD) System.out.println("\u0424\u043e\u0440\u043c\u0430\u0442 \u0432\u0445\u043e\u0434\u043d\u043e\u0433\u043e JSON \u0444\u0430\u0439\u043b\u0430:"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 71
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 71: (STD) System.out.println("  { \"expression\": \"5 1 2 + 4 * + 3 -\" }"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 72
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 72: (STD) System.out.println("\u0424\u043e\u0440\u043c\u0430\u0442 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0433\u043e JSON \u0444\u0430\u0439\u043b\u0430:"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 73
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 73: (STD) System.out.println("  {"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 74
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 74: (STD) System.out.println("    \"expression\": \"5 1 2 + 4 * + 3 -\","); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 75
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 75: (STD) System.out.println("    \"result\": 14"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 76
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 76: (STD) System.out.println("  }"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 77
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 77: (STD) System.out.println("  (\u0446\u0435\u043b\u044b\u0435 \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u043f\u0438\u0441\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0431\u0435\u0437 \u0434\u0435\u0441\u044f\u0442\u0438\u0447\u043d\u043e\u0439 \u0442\u043e\u0447\u043a\u0438)"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 78
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 78: (STD) System.out.println("\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 79
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 79: (STD) System.out.println("  - Java 11 \u0438\u043b\u0438 \u0432\u044b\u0448\u0435"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 80
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 80: (STD) System.out.println("  - \u0411\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Gson (\u0432\u0435\u0440\u0441\u0438\u044f 2.8.9+) \u2014 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0441 JSON"); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 81
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 81: (STD) System.out.println("================================================="); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: pause([Scanner scanner])void
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 82
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 82: (STD) System.out.print("\u0414\u043b\u044f \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0430 \u0432 \u043c\u0435\u043d\u044e \u043d\u0430\u0436\u043c\u0438\u0442\u0435 Enter..."); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 83
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutantSTD:
+    Logging mutantSTD 83: (STD) scanner.nextLine(); -> <NO-OP>
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: formatResult([double result])String
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 84
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 84: Console.formatResult(line 153, col 20)
+            mutation operator group:   ROR
+            mutation operator:         ==(double,double) |==> <=(double,double)
+            original:                  result == (long)result 
+            mutant:                    result <= (long)result
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 85
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 85: Console.formatResult(line 153, col 20)
+            mutation operator group:   ROR
+            mutation operator:         ==(double,double) |==> >=(double,double)
+            original:                  result == (long)result 
+            mutant:                    result >= (long)result
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.nextMutant:
+    Creating mutant 86
+[04/26 19:38:40] [INFO   ] org.mutationtesting.major.mutation.Mutator.logMutant:
+    Logging mutant 86: Console.formatResult(line 153, col 20)
+            mutation operator group:   ROR
+            mutation operator:         ==(double,double) |==> FALSE(double,double)
+            original:                  result == (long)result 
+            mutant:                    false

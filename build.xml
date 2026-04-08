@@ -60,7 +60,7 @@
                classpathref="compile.classpath">
 
             <!-- Add Major plugin -->
-            <compilerarg value="-Xplugin:MajorPlugin mml:${mml.file}"/>
+            <compilerarg value="-Xplugin:MajorPlugin mml:${mml.file} export.mutants export.context"/>
         </javac>
     </target>
 
