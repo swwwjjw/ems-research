@@ -1,0 +1,4 @@
+99|SUPPRESSION|LOOP_BOUNDS|Loop bounds check|com.example.RPNCalculator@slowEvaluate(java.lang.String[])|12|326|!=(int,int)
+140|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|com.example.RPNCalculator@isOperator(java.lang.String)|75|2513|!=(boolean,boolean)
+143|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|com.example.RPNCalculator@isOperator(java.lang.String)|75|2513|!=(boolean,boolean)
+146|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|com.example.RPNCalculator@isOperator(java.lang.String)|75|2513|!=(boolean,boolean)
