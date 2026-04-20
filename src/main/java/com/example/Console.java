@@ -6,11 +6,21 @@ public class Console {
     private final FileService fileService;
     private final RPNCalculator calculator;
 
+    /**
+     * Конструктор класса Console.
+     * @param fileService сервис для работы с JSON-файлами
+     * @param calculator  калькулятор для вычисления выражений в RPN
+     */
     public Console(FileService fileService, RPNCalculator calculator) {
         this.fileService = fileService;
         this.calculator = calculator;
     }
 
+    /**
+     * Главный метод запуска консольного интерфейса.
+     * Отображает меню и обрабатывает выбор пользователя в бесконечном цикле до выхода.
+     * Использует try-with-resources для автоматического закрытия Scanner.
+     */
     public void run() {
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
@@ -37,6 +47,9 @@ public class Console {
         }
     }
 
+    /**
+     * Выводит на экран главное меню программы.
+     */
     private void printMenu() {
         System.out.println("\n========== ГЛАВНОЕ МЕНЮ ==========");
         System.out.println("1. Ручной ввод выражения");
@@ -46,6 +59,11 @@ public class Console {
         System.out.print("Выберите пункт: ");
     }
 
+    /**
+     * Обрабатывает ручной ввод выражения пользователем.
+     * Запрашивает выражение в RPN, выбор алгоритма, вычисляет результат и выводит его.
+     * @param scanner объект Scanner для чтения ввода с консоли
+     */
     public void manualInput(Scanner scanner) {
         System.out.println("\n--- Ручной ввод выражения ---");
         System.out.print("Введите выражение в обратной польской нотации (токены через пробел): ");
@@ -76,6 +94,11 @@ public class Console {
         }
     }
 
+    /**
+     * Обрабатывает JSON-файл: читает выражение из входного файла,
+     * вычисляет его указанным алгоритмом и сохраняет результат в выходной JSON-файл.
+     * @param scanner объект Scanner для чтения путей к файлам и выбора алгоритма
+     */
     public void processJsonFile(Scanner scanner) {
         System.out.println("\n--- Обработка JSON-файла ---");
         System.out.print("Введите путь к входному JSON-файлу: ");
@@ -112,6 +135,11 @@ public class Console {
         }
     }
 
+    /**
+     * Выводит на экран подробную справочную информацию о программе:
+     * описание обратной польской нотации, допустимые операторы,
+     * форматы JSON-файлов, требования к окружению.
+     */
     private void showHelp() {
         System.out.println("\n=================== СПРАВКА ===================");
         System.out.println("Калькулятор обратной польской нотации (RPN)");
@@ -144,11 +172,22 @@ public class Console {
         System.out.println("=================================================");
     }
 
+    /**
+     * Приостанавливает выполнение до нажатия пользователем Enter.
+     * Используется после вывода справки, чтобы пользователь успел прочитать.
+     * @param scanner объект Scanner для чтения нажатия Enter
+     */
     private void pause(Scanner scanner) {
         System.out.print("Для возврата в меню нажмите Enter...");
         scanner.nextLine();
     }
 
+    /**
+     * Форматирует число с плавающей точкой: если значение целое,
+     * возвращает строку без десятичной точки, иначе возвращает обычное строковое представление.
+     * @param result результат вычисления
+     * @return отформатированная строка
+     */
     private String formatResult(double result) {
         if (result == (long) result) {
             return String.valueOf((long) result);
